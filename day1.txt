@@ -158,14 +158,33 @@ Deepak Rudramurthy	13.235.68.87
 Venkat Annapureddy	52.66.244.244
 Shashank Rawoorkar	52.66.245.153
 Sudharshan V		52.66.144.194
-Arun Kumar M		13.233.121.132
+Arun Kumar M			13.233.121.132
 Sathiyaraj S		13.232.253.155
 Anuka prasad behera	3.7.248.249
 Parantap Banerjee	13.127.248.85
 Ganesh Nayak M		13.232.28.46
 Srivastava, Himanshu Shashi Shekhar	52.66.237.48
 
+======================
+How to gerenate fake Traffic?
+	- Jmeter
+The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance.
 
+How to install it?
+	- Install JDK and Set JAVA_HOME (WINDOWS)
+	- Download jemete zip
+		https://jmeter.apache.org/download_jmeter.cgi
+	- Unzip and keep in Some dir may be C://
+	- Download and install the JMeter Standard Plugins. The JMeter scripts use the Stepping Thread 		Group plugin from https://jmeter-plugins.org/install/Install/
+	- Copy a Downloaded jar file (jmeter-plugins-manager-1.4.jar) into C:\tools\apache-jmeter-5.3\lib\ext
+	- Open up a command line
+		$ cd C:\tools\apache-jmeter-5.2.1\bin
+		$ jmeter.bat
+	- Enable the Custom Thread Groups plugin
+		Follow Image.
+
+	- BASIC tutorials 
+	- https://www.blazemeter.com/blog/getting-started-jmeter-basic-tutorial
 
 
 Reference
