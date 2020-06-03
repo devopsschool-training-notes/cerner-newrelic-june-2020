@@ -1,0 +1,157 @@
+Rajesh Kumar
+=============
+www.RajeshKumar.xyz
+====================================
+Start Time : 9: 00 AM IST 
+End time - 5:00 PM IST
+===========================
+First Break - 10:30 AM IST - 12 - 15 mins
+Second Break - 3:00 PM IST - 12 - 15 mins
+Lunch Time - 1:00 - 1.45 PM IST
+===========================
+Demo  + Lab - AWS
+============================
+50%     50%
+==================================
+Day 1 - Fundamental of Newrelic
+Day 2 - Intermediate of NewRelic
+Day 3 - Advance 
+==================================
+Why we are learning NewRelic?
+		We have apps running in distributed env.	
+				        ----------------
+		We want to monitor it?
+
+
+Platform - 		Physical  -> Vms -----> Container  
+Release Cycle 		Longer    -> Bi weekly ---> Imm Release
+Software Dev Model - 	Waterfall -> Agile  -> (SRE) -> DevOps -> DevSecOps
+Software Dev Arch - 	Monolitic -> SOA  --> Microservices
+
+DevOps
+	You are programmer - Code for Product
+	You are programmer - Code for testing a Product
+	You are programmer - Code for Infa ops
+
+	Engineering
+	------------
+	Dev + OPS
+
+devOps
+==============================================
+- Imm Release
+- Reduce a Cost 
+		Software Dev
+		Software Running
+		Software mgmt
+- Improve a Quality
+	Code Quality
+	Test Quality
+		Reducing a Wastage
+https://www.devopsschool.com/videos/387/complete-cicd-devops-implementation-from-scratch-using-jenkins-by-devopsschool/
+==========================================================
+SDLC
+=======================
+Problems 		Tools
+https://www.devopsschool.com/path/
+	
+=====================================================================
+Step 1 - Register a Free Trial Account in NewRelic
+
+Step 2 - Install a NewRelic Agent
+		Programming Lang - JAVA |  Python | RubyonRail | NodeJs | DOT NET
+		OS - Windows | Linux
+
+		------------------------------------
+		APP Server - TOMCAT
+		Framework - SpringBoot
+		DB server - mysql
+		-------------------------------------
+		Where is App??
+				Need to be running
+				Create a Load 
+				Install agent
+					Agent would send an data to NEwRelic
+				Then you analyze
+======================================================
+13.233.55.238
+ubuntu
+sudo -s
+key - PPK  | PEM
+
+Step 1 - Download a Putty from 
+=========================
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+Step 2  - Login to Linux Box using Putty
+=========================
+IP - 
+Username - ubuntu
+PPK - https://www.devopsschool.com/notes/docker/2019/
+	filename - rajesh-mumbai.ppk (For putty)
+	filename - rajesh-mumbai.pem (For Mac)
+
+FOR PUUTY USer only - https://www.devopsschool.com/blog/how-to-login-linux-server-of-aws-from-windows-using-putty/
+- Step 5 
+- Step 6
+
+Step 3 - Install JAVA
+=========================
+$ sudo -s
+$ apt-get update
+$ apt-get install openjdk-8-jdk -y
+$ java
+
+#######MAC USER ONLY ####################
+chmod 600 rajesh-mumbai.pem
+ssh -i rajesh-mumbai.pem ubuntu@ipaddress
+
+Step 4 - Install Tomcat
+=========================
+$ apt-get install tomcat8 -y
+
+Step 5 - Download NewRelic Agent file
+=========================
+$ cd /var/lib/tomcat8/webapps
+$ curl -O https://download.newrelic.com/newrelic/java-agent/newrelic-agent/current/newrelic-java.zip
+$ apt-get install unzip -y
+$ unzip newrelic-java.zip	# You get this "newrelic" directory
+
+Step 6 - Configure NewRelic Agent with Tomcat
+=========================
+$ cd /usr/share/tomcat8/bin
+$ vi catalina.sh
+export JAVA_OPTS="$JAVA_OPTS -javaagent:/var/lib/tomcat8/webapps/newrelic/newrelic.jar"
+
+Step 7 - Update NewRelic Agent newrelic.yml 
+=========================
+$ cd /var/lib/tomcat8/webapps/newrelic/
+$ vi newrelic.yml
+- license_key
+- app_name
+
+Step 8 - Update NewRelic Agent newrelic.yml 
+=========================
+$ service tomcat8 status
+$ service tomcat8 start
+$ service tomcat8 restart
+
+Step 9 - Update NewRelic Agent newrelic.yml 
+=========================
+Access this url in web browsers http://<YOURIP>:8080/
+
+Step 10 - Check NewRelic APM Dashboard
+=========================
+
+
+
+
+
+Reference
+==============
+https://www.devopsschool.com/video/docker/index.html
+
+
+
+
+
