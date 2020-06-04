@@ -28,38 +28,37 @@ http://ec2-13-127-187-69.ap-south-1.compute.amazonaws.com/
 
 Step 11 - Install New Relic .NET agent
 https://docs.newrelic.com/docs/agents/net-agent/installation/introduction-net-agent-install
-9aa6cbdf12c332a9c84a156b7e337f4bc96bNRAL
+
 
 Step 12 - Go to services and restart "World Wide Web Publishing Service"
 
 
-Saurabh Khare		13.234.67.54
-anand janakunavar	52.66.247.145	
-Mansoor Mohammed	13.127.135.131
-Veerapu Nagarjun	13.233.194.236
+Saurabh Khare		13.234.67.54	done
+anand janakunavar	52.66.247.145	DONE	
+Mansoor Mohammed	13.127.135.131	DONE
+Veerapu Nagarjun	13.233.194.236	DONE
+Suvendu Sekhar Mondal	52.66.243.179	done
+Arun Nehru Sriramoju	3.7.71.142	DONE
+	
+Neethu Shree K P	3.7.248.116	DONE
+	
+Deepak Rudramurthy	3.7.248.21	pending
+	
+Venkat Annapureddy	52.66.109.113	
 
-Suvendu Sekhar Mondal	52.66.243.179
-Arun Nehru Sriramoju	3.7.71.142
+Shashank Rawoorkar	15.206.148.17	DONE
 	
-Neethu Shree K P	3.7.248.116
-	
-Deepak Rudramurthy	3.7.248.21
-	
-Venkat Annapureddy	52.66.109.113
-
-Shashank Rawoorkar	15.206.148.17
-	
-Sudharshan V		13.232.15.242
+Sudharshan V		13.232.15.242	done
 		
-Arun Kumar M		13.233.126.223
+Arun Kumar M		13.233.126.223	done
 	
-Sathiyaraj S		3.7.73.71
+Sathiyaraj S		3.7.73.71	done
 	
-Anuka prasad behera	13.232.236.105
+Anuka prasad behera	13.232.236.105	done
 
-Parantap Banerjee	13.126.142.235
+Parantap Banerjee	13.126.142.235	pENDING
 		
-Ganesh Nayak M		13.235.67.6
+Ganesh Nayak M		13.235.67.6	doNE
 	
 Srivastava, Himanshu Shashi Shekhar	13.127.103.141
 
@@ -70,26 +69,41 @@ WINDOWS MACHINE
 
 
 Saurabh Khare			15.206.195.84	wHo;nYvZ.fD8PiCSg@af@i!I5SUe;22r
-anand janakunavar		3.7.70.51	;ErSCspqGM&2lLQ&b*J&HuVDSupSz43f
+anand janakunavar		3.7.70.51	;ErSCspqGM&2lLQ&b*J&HuVDSupSz43f	
 Mansoor Mohammed		13.232.148.146	u39xo)-vOx9p59gQUq.De@EElsTu@TrV	
 Veerapu Nagarjun		13.233.150.92	h3SYn7iOPmM7?bmWgpwUAX9sTd)KgNP7	
 Suvendu Sekhar Mondal		13.234.31.38	?g;mZPC2;xrUm;zFsfU*i;$iL&Ep94vx
-Arun Nehru Sriramoju		13.232.97.161	N$9prKva*c8EP8DOFiYM)sH=Ci?38vFV	
+Arun Nehru Sriramoju		13.232.97.161	N$9prKva*c8EP8DOFiYM)sH=Ci?38vFV	PENDING	
 Neethu Shree K P		13.232.106.57	k=;)EtYwLEwXgt?wvZBCiUsd3$(BJo%w	
-Deepak Rudramurthy		13.233.102.78	rETTuQIDGvgf=h4H-wIOC=EbE8LnbtSe
-Venkat Annapureddy		13.232.238.43	$jR%9.Ob.&b=!$;eme3m=aJvU6tt&G-6
-Shashank Rawoorkar		13.233.3.129	z6DIC(%dwZYu7TkfPNd@;7P-UHPPP5Ws
+Deepak Rudramurthy		13.233.102.78	rETTuQIDGvgf=h4H-wIOC=EbE8LnbtSe	pENDING
+Venkat Annapureddy		13.232.238.43	$jR%9.Ob.&b=!$;eme3m=aJvU6tt&G-6	PENDING
+Shashank Rawoorkar		13.233.3.129	z6DIC(%dwZYu7TkfPNd@;7P-UHPPP5Ws	
 Sudharshan V			52.66.255.65	*YJ2);aQCTZto(mS.((xOH$VVAQQ(Mio
 Arun Kumar M			13.127.22.13	*pvKY$p55DmqcKavu%78CdVCWIE?%!hn		
-Sathiyaraj S			13.233.120.41	qR-3LxkJD4c6gFF66!tXTxej89nMDHmz
-Anuka prasad behera		13.233.117.12	Y-4Nby4uj9Xrj;TSjZJQUd%@i7LYD$F4
+Sathiyaraj S			13.233.120.41	qR-3LxkJD4c6gFF66!tXTxej89nMDHmz	
+Anuka prasad behera		13.233.117.12	Y-4Nby4uj9Xrj;TSjZJQUd%@i7LYD$F4	
 Parantap Banerjee		13.232.215.240	2m;RkkG?IIItgK9WKJFHG3Ai4!esUy?w
-Ganesh Nayak M			13.233.156.109	qIS=WyMMrU9(EutdJHxSH558?SL@9F26
+Ganesh Nayak M			13.233.156.109	qIS=WyMMrU9(EutdJHxSH558?SL@9F26	pENDING
 Srivastava, Himanshu Shashi Shekhar 13.235.81.201	DV?8KS@5.cqbU-mXEIqq.ICVEEzLVYTl
 15.206.127.24			ftLE9-GshchjY9GqJTeIg-5gULl%5g*F
 				
 
 Administrator
+======================================
+=======================================================
+Step 1 - Login to Ec2 Instance and Become a root
+
+Step 2- Install Docker Engine
+https://docs.docker.com/engine/install/ubuntu/
+
+Step 3- Run a Setup Container
+https://devopsschool-demo-labs-projects.github.io/newrelic-lab-setup/deployment/
+http://13.233.55.238/petclinic/
+
+
+
+
+
 
 
 
