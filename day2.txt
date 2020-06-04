@@ -1,5 +1,7 @@
 13.127.245.25
 
+Refer https://www.devopsschool.com/blog/enable-iis-and-asp-net-in-windows-2016-and-configure-newrelic-monitoring-step-by-step-for-asp-net-app/
+
 Step 1 - Get your Windows 2016 server
 
 Step 2 - Get my password
@@ -9,12 +11,26 @@ Step 3 - Disable IE Security Level
 Step 4 - Enable IIS + DOTNET + ASP NET 
 
 Step 5 - Write ASP.net Sample Code
+https://dotnet.microsoft.com/learn/aspnet/hello-world-tutorial/intro
 
-Step 6 - Publish Sample Code For release
+Step 6 - Disable default site in IIS
 
-Step 7 - Disable default site in IIS
+Step 7 - Create new sete in IIS
 
-Step 8 - Create new sete in IIS
+Step 8 - Publish Sample Code For release
+dotnet publish --output "C:\mysite" --configuration Release
+
+Step 9 - Install the .NET Core Hosting Bundle
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1#install-the-net-core-hosting-bundle
+
+Step 10 - Verify asp.net website in browsers
+http://ec2-13-127-187-69.ap-south-1.compute.amazonaws.com/
+
+Step 11 - Install New Relic .NET agent
+https://docs.newrelic.com/docs/agents/net-agent/installation/introduction-net-agent-install
+9aa6cbdf12c332a9c84a156b7e337f4bc96bNRAL
+
+Step 12 - Go to services and restart "World Wide Web Publishing Service"
 
 
 Saurabh Khare		13.234.67.54
@@ -48,4 +64,32 @@ Ganesh Nayak M		13.235.67.6
 Srivastava, Himanshu Shashi Shekhar	13.127.103.141
 
 3.7.253.94
+===================================================
+
+WINDOWS MACHINE
+
+
+Saurabh Khare			15.206.195.84	wHo;nYvZ.fD8PiCSg@af@i!I5SUe;22r
+anand janakunavar		3.7.70.51	;ErSCspqGM&2lLQ&b*J&HuVDSupSz43f
+Mansoor Mohammed		13.232.148.146	u39xo)-vOx9p59gQUq.De@EElsTu@TrV	
+Veerapu Nagarjun		13.233.150.92	h3SYn7iOPmM7?bmWgpwUAX9sTd)KgNP7	
+Suvendu Sekhar Mondal		13.234.31.38	?g;mZPC2;xrUm;zFsfU*i;$iL&Ep94vx
+Arun Nehru Sriramoju		13.232.97.161	N$9prKva*c8EP8DOFiYM)sH=Ci?38vFV	
+Neethu Shree K P		13.232.106.57	k=;)EtYwLEwXgt?wvZBCiUsd3$(BJo%w	
+Deepak Rudramurthy		13.233.102.78	rETTuQIDGvgf=h4H-wIOC=EbE8LnbtSe
+Venkat Annapureddy		13.232.238.43	$jR%9.Ob.&b=!$;eme3m=aJvU6tt&G-6
+Shashank Rawoorkar		13.233.3.129	z6DIC(%dwZYu7TkfPNd@;7P-UHPPP5Ws
+Sudharshan V			52.66.255.65	*YJ2);aQCTZto(mS.((xOH$VVAQQ(Mio
+Arun Kumar M			13.127.22.13	*pvKY$p55DmqcKavu%78CdVCWIE?%!hn		
+Sathiyaraj S			13.233.120.41	qR-3LxkJD4c6gFF66!tXTxej89nMDHmz
+Anuka prasad behera		13.233.117.12	Y-4Nby4uj9Xrj;TSjZJQUd%@i7LYD$F4
+Parantap Banerjee		13.232.215.240	2m;RkkG?IIItgK9WKJFHG3Ai4!esUy?w
+Ganesh Nayak M			13.233.156.109	qIS=WyMMrU9(EutdJHxSH558?SL@9F26
+Srivastava, Himanshu Shashi Shekhar 13.235.81.201	DV?8KS@5.cqbU-mXEIqq.ICVEEzLVYTl
+15.206.127.24			ftLE9-GshchjY9GqJTeIg-5gULl%5g*F
+				
+
+Administrator
+
+
 
