@@ -1,0 +1,51 @@
+13.127.245.25
+
+Step 1 - Get your Windows 2016 server
+
+Step 2 - Get my password
+
+Step 3 - Disable IE Security Level 
+
+Step 4 - Enable IIS + DOTNET + ASP NET 
+
+Step 5 - Write ASP.net Sample Code
+
+Step 6 - Publish Sample Code For release
+
+Step 7 - Disable default site in IIS
+
+Step 8 - Create new sete in IIS
+
+
+Saurabh Khare		13.234.67.54
+anand janakunavar	52.66.247.145	
+Mansoor Mohammed	13.127.135.131
+Veerapu Nagarjun	13.233.194.236
+
+Suvendu Sekhar Mondal	52.66.243.179
+Arun Nehru Sriramoju	3.7.71.142
+	
+Neethu Shree K P	3.7.248.116
+	
+Deepak Rudramurthy	3.7.248.21
+	
+Venkat Annapureddy	52.66.109.113
+
+Shashank Rawoorkar	15.206.148.17
+	
+Sudharshan V		13.232.15.242
+		
+Arun Kumar M		13.233.126.223
+	
+Sathiyaraj S		3.7.73.71
+	
+Anuka prasad behera	13.232.236.105
+
+Parantap Banerjee	13.126.142.235
+		
+Ganesh Nayak M		13.235.67.6
+	
+Srivastava, Himanshu Shashi Shekhar	13.127.103.141
+
+3.7.253.94
+
