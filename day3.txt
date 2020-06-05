@@ -30,3 +30,50 @@ Ganesh Nayak M			3.7.45.139
 Srivastava, Himanshu Shashi Shekhar 	13.127.76.46
 
 13.127.178.178		
+=======================================
+
+
+https://github.com/devopsschool-demo-labs-projects/newrelic-lab-setup
+HTML
+https://devopsschool-demo-labs-projects.github.io/newrelic-lab-setup/
+
+https://github.com/devopsschool-demo-labs-projects/newrelic-generate-apm-data
+
+##### DO IT in ADVANCE
+cd /home/ubuntu
+chown -R ubuntu:ubuntu .
+
+
+
+Step 1 - 
+HOST_NAME: 13.234.21.228
+PORT: 80
+AWS_KEY_FILE: rajesh-mumbai.pem
+NR_API_KEY: 9aa6cbdf12c332a9c84a156b7e337f4bc96bNRAL
+NR_APP_ID: 294580546
+NR_DEPLOY_USER: 2747847
+
+Step 2 - Install Git bash from this https://git-scm.com/
+Windows - git bash
+
+Step 3 - Make sure that your THREAD Profile is NOt Started
+		Start Only afyer 10 mins of running script.
+
+Step 4 - Make sure that "C:\tools\apache-jmeter-5.3\bin" into PATH
+or
+Modify generate-apm-data.sh file accordingly
+
+Step 5 - If you receive an error that you have an unprotected private key file, execute chmod 600 nru.pem to make the key file accessible only to its owner (you).
+
+
+
+
+
+
+
+
+
+
+
+
+
