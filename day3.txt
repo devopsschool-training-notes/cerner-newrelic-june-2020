@@ -66,6 +66,20 @@ Modify generate-apm-data.sh file accordingly
 Step 5 - If you receive an error that you have an unprotected private key file, execute chmod 600 nru.pem to make the key file accessible only to its owner (you).
 
 
+===========================
+Notes - Github
+Tutorials
+	https://www.devopsschool.com/blog/?s=newrelic
+	https://www.devopsschool.com/tutorial/newrelic/
+Slides
+	https://www.devopsschool.com/pdf
+	https://www.devopsschool.com/slides/
+Videos
+	https://www.devopsschool.com/videos/
+
+Trainer
+www.RajeshKumar.xyz
+
 
 
 
